@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables In HTML</title>
+</head>
+<body>
+    
+    <table border="1px">
+        <caption>
+            Table 1
+        </caption>
+
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Salary</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>John</td>
+                <td>24</td>
+                <td>20,000</td>
+            </tr>
+            <tr>
+                <td>Adam</td>
+                <td>31</td>
+                <td>35,000</td>
+            </tr>
+            <tr>
+                <td>Chris</td>
+                <td>27</td>
+                <td>32,000</td>
+            </tr>
+        </tbody>
+    </table>
+    
+
+    <br>
+    <br>
+
+
+    <table border="1px">
+        
+        <caption>
+            Table 2
+        </caption>
+
+        <thead>
+            <tr>
+                <td>Column 1</td>
+                <td>Column 2</td>
+                <td>Column 3</td>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td rowspan="2">Row 1 Cell 1</td>
+                <td>Row 1 Cell 2</td>
+                <td>Row 1 Cell 3</td>
+            </tr>
+            <tr>
+                <td>Row 2 Cell 2</td>
+                <td>Row 2 Cell 3</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="3">Row 3 Cell 1</td>
+            </tr>
+        </tfoot>
+    </table>
+    
+
+    <br>
+    <br>
+
+    <table border="1px">
+        <caption>
+            Table 3
+        </caption>
+
+        <thead>
+            <tr>
+                <th>Item</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th>Extended</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Hard Disk</td>
+                <td>1</td>
+                <td>500$</td>
+                <td>400$</td>
+            </tr>
+            <tr>
+                <td>Cd Drive</td>
+                <td>1</td>
+                <td>200$</td>
+                <td>500$</td>
+            </tr>
+            <tr>
+                <td>Cds</td>
+                <td>10</td>
+                <td>20$</td>
+                <td>50$</td>
+            </tr>
+            
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th colspan="3">Total Amount</th>
+                <th>950$</th>
+            </tr>
+        </tfoot>
+    </table>
+
+    <br>
+    <br>
+
+    <table border="1px">
+       <caption>
+        Table 4
+       </caption>
+
+       <thead>
+        <tr>
+            <td>Day/Period</td>
+            <td>9:30 - 10:20</td>
+            <td>10:20 - 11:10</td>
+            <td>11:10 - 12:00</td>
+            <td>12:00 - 12:40</td>
+            <td>12:40 - 1:30</td>
+            <td>1:30 - 2:20</td>
+            <td>2:20 - 3:10</td>
+            <td>3:10 - 4:00</td>
+        </tr>
+       </thead>
+
+       <tbody>
+        <tr>
+            <th>Monday</th>
+            <td>Eng</td>
+            <td>Mat</td>
+            <td>Che</td>
+            <th rowspan="6">LUNCH</th>
+            <td colspan="3">LAB</td>
+            <td>Phy</td>
+        </tr>
+        <tr>
+            <th>Tuesday</th>
+            <td colspan="3">LAB</td>
+            <td>Eng</td>
+            <td>Che</td>
+            <td>Mat</td>
+            <td>SPORTS</td>
+        </tr>
+        <tr>
+            <th>Wednesday</th>
+            <td>Mat</td>
+            <td>Phy</td>
+            <td>Eng</td>
+            <td>Che</td>
+            <td colspan="3">LIBRARY</td>
+        </tr>
+        <tr>
+            <th>Thursday</th>
+            <td>Phy</td>
+            <td>Eng</td>
+            <td>Che</td>
+            <td colspan="3">LAB</td>
+            <td>Mat</td>
+        </tr>
+        <tr>
+            <th>Friday</th>
+            <td colspan="3">LAB</td>
+            <td>Mat</td>
+            <td>Che</td>
+            <td>Eng</td>
+            <td>Phy</td>
+        </tr>
+        <tr>
+            <th>Saturday</th>
+            <td>Eng</td>
+            <td>Che</td>
+            <td>Mat</td>
+            <td colspan="3">SEMINAR</td>
+            <td>SPORTS</td>
+        </tr>
+       </tbody>
+    </table>
+
+    <br>
+    <br>
+
+    <table border="1px">
+        <caption>
+            Table 5
+        </caption>
+
+        <thead>
+            <tr>
+                <th rowspan="3">Day</th>
+                <th colspan="3">Seminar</th>
+            </tr>
+            <tr>
+                <th colspan="2">Schedule</th>
+                <th>Topic</th>
+            </tr>
+            <tr>
+                <th>Begin</th>
+                <th>End</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td rowspan="2">Monday</td>
+                <td rowspan="2">8:00 a.m</td>
+                <td rowspan="2">5:00 p.m</td>
+                <td>Introduction to XML</td>
+            </tr>
+            <tr>
+                <td>Validity: DTD and Relax NG</td>
+            </tr>
+            <tr>
+                <td rowspan="3">Tuesday</td>
+                <td>8:00 a.m</td>
+                <td>11:00 a.m</td>
+                <td rowspan="2">XPath</td>
+            </tr>
+            <tr>
+                <td>11:00 a.m</td>
+                <td>2:00 p.m</td>
+            </tr>
+            <tr>
+                <td>2:00 p.m</td>
+                <td>5:00 p.m</td>
+                <td>XSL Transformations</td>
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td>8:00 a.m</td>
+                <td>12:00 p.m</td>
+                <td> XSL Formatting Objects</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
