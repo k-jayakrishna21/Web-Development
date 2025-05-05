@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms in HTML</title>
+</head>
+<body>
+    <form>
+        <legend>
+           <strong>Form 1</strong>
+        </legend>
+
+        <label for="fname">First Name :</label>
+        <input type="text" id="fname" >
+        <br>
+        <br>
+        <label for="lname">Last Name :</label>
+        <input type="text" id="lname">
+        <br>
+        <br>
+        <label for="dob">Date of Birth :</label>
+        <input type="month" id="dob">
+        <br>
+        <br>
+        <label for="mail">Email id :</label>
+        <input type="mail" id="mail">
+        <br>
+        <br>
+        <label for="num">Mobile Number :</label>
+        <input type="tel" id="num">
+        <br>
+        <br>
+
+        <input type="submit" value="SUBMIT">
+        <input type="reset" value="RESET">
+    </form>
+
+    <br>
+    <br>
+    <br>
+
+    <form>
+        <fieldset>
+            <legend>
+                <strong>Form 2</strong>
+            </legend>
+
+            <label for="opt">Salutation</label>
+            <select id="opt">
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+                <option value="D">D</option>
+            </select>
+            <br>
+            <br>
+
+            <label for="fname">First Name :</label>
+            <input type="text" id="fname">
+            <br>
+            <br>
+            <label for="lname">Last Name :</label>
+            <input type="text" id="lname">
+            <br>
+            <br>
+            <label>Gender :</label>
+            <input type="radio" id="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female">
+            <label for="female">Female</label>
+            <br>
+            <br>
+            <label for="mail">Email :</label>
+            <input type="mail" id="mail">
+            <br>
+            <br>
+            <label for="dob">Date of Birth :</label>
+            <input type="month" id="dob">
+            <br>
+            <br>
+            <label for="address">Address :</label>
+            <br>
+            <textarea id="address" rows="3" cols="35"></textarea>
+            <br>
+            <br>
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <form>
+        <legend>
+            <strong>Form 3</strong>
+        </legend>
+
+        <label for="fname">First Name :</label>
+        <input type="text" id="fname" placeholder="Enter First Name">
+        <br>
+        <br>
+        <label for="lname">Last Name :</label>
+        <input type="text" id="lname" placeholder="Enter Last Name">
+        <br>
+        <br>
+        <label for="email">Email :</label>
+        <input type="email" id="email" placeholder="Enter Email Address">
+        <br>
+        <br>
+        <label for="password">Password :</label>
+        <input type="password" id="password" placeholder="Enter Password">
+        <br>
+        <br>
+        <label>Gender :</label>
+        <br>
+        <label for="male">Male</label>
+        <input type="radio" id="male">
+        <br>
+        <label for="female">Female</label>
+        <input type="radio" id="female">
+        <br>
+        <label for="other">Other</label>
+        <input type="radio" id="other">
+        <br>
+        <br>
+        <label for="age">Age :</label>
+        <input type="number" id="age">
+        <br>
+        <br>
+        <label>Preferences :</label>
+        <br>
+        <label for="acr">Acrylic Painting :</label>
+        <input type="checkbox" id="acr">
+        <br>
+        <label for="oil">Oil Painting :</label>
+        <input type="checkbox" id="oil">
+        <br>
+        <label for="water">Water Color Painting</label>
+        <input type="checkbox" id="water">
+        <br>
+        <label for="occupation">Select Occupation </label>
+        <select id="occupation">
+            <option value="student">Student</option>
+            <option value="Professor">Professor</option>
+            <option value="working professional">Working Professional</option>
+        </select>
+        <br>
+        <label for="bio">Bio </label>
+        <textarea id="bio" rows="10" cols="25" placeholder="Share few lines about yourself..."></textarea>
+        <br>
+        <input type="reset" value="RESET">
+        <input type="submit" value="SUBMIT">
+
+
+
+    </form>
+</body>
+</html>
