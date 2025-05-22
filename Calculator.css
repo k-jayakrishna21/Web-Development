@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+#display-box {
+    /* border-style: solid;
+    border-color: black;
+    border-width: 1px; */
+    height: 5rem;
+    width: 20rem;
+    margin-bottom: 0.9rem;
+}
+
+#display {
+    height: 100%;
+    width: 100%;
+    
+}
+
+#input-box {
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    height: 20rem;
+    width: 20rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+.btnClass {
+    height: 2.2rem;
+    width: 3rem;
+    /* background-color: aqua; */
+    font-size: 1.5rem;
+    border: none;
+    box-shadow: inset 1px 1px 10px 6px aqua;
+    margin: 1rem;
+    cursor: pointer;
+}
