@@ -1,0 +1,59 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#main-box {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(134, 134, 248);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#card-box {
+    height: 500px;
+    width: 65%;
+    display: flex;
+}
+
+#left-box {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+    color: white;
+    padding: 5%;
+    box-sizing: border-box;
+    background-color: rgb(91, 0, 91);
+}
+
+#left-box h1 {
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+#left-box p {
+    text-align: left;
+}
+
+#left-bottom-box {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    gap: 10%;
+}
+
+.first {
+    font-size: 2rem;
+}
+
+#right-box {
+    height: 100%;
+    width: 50%;
+    background-image: url(Space.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
