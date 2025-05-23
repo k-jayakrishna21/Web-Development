@@ -1,0 +1,125 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#main-box {
+    height: 100vh;
+    width: 100vw;
+    background: #A1FFCE;  
+    background: -webkit-linear-gradient(to right, #FAFFD1, #A1FFCE);  
+    background: linear-gradient(to right, #FAFFD1, #A1FFCE); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#card-box {
+    height: 75%;
+    width: 25%;
+    background-color: white;
+    border-radius: 7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#img-box {
+    height: 25%;
+    width: 100%;
+    margin-bottom: 5%;
+    background-color: rgb(3, 3, 68);
+    border-top-left-radius: 7%;
+    border-top-right-radius: 7%;
+}
+
+#img-box img {
+    height: 100%;
+    width: 100%;
+}
+
+#heading-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+#para-box {
+    height: 19%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#para-box p {
+    text-align: justify;
+    text-align-last: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#annual-box {
+    height: 12%;
+    width: 100%;
+    display: flex;
+    position: relative;
+    align-items: center;
+    background-color: rgb(170, 236, 214);
+    padding-left: 3%;
+    padding-right: 3%;
+    border-radius: 10%;
+    margin-bottom: 8%;
+}
+
+#change-box {
+    position: absolute;
+    right: 6%;
+}
+
+#doller-box {
+    height: 45%;
+    width: 15%;
+    margin-right: 3%;
+}
+
+#doller-box img {
+    height: 100%;
+    width: 100%;
+}
+
+#annual-text li {
+    list-style-type: none;
+}
+
+.first {
+    display: flex;
+    gap: 10%;
+}
+
+#pay-box {
+    height: 10%;
+    width: 100%;
+    background-color: rgb(3, 3, 68);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+#pay-box p {
+    color: white;
+}
+
+#cancel-box {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
