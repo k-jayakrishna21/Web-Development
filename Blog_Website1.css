@@ -1,0 +1,160 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+#outside-box {
+    height: 95%;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+}
+
+#main-box {
+    height: 93%;
+    width: 80%;
+    padding-bottom: 3%;
+}
+
+#header-box {
+    height: 14%;
+    width: 90%;
+    margin: auto;
+    margin-top: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4.5%;
+}
+
+#main-content-box {
+    height: 80%;
+    width: 94%;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+}
+
+.card-box {
+    height: 50%;
+    width: 25%;
+    border-top-left-radius: 2%;
+    border-top-right-radius: 2%;
+    margin: 1.8%;
+}
+
+.photo-box {
+    height: 50%;
+    width: 100%;
+    border-top-left-radius: 2%;
+    border-top-right-radius: 2%;
+    overflow: hidden;
+}
+
+.img-box {
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 2%;
+    border-top-right-radius: 2%;
+    transition: all 0.5s;
+    object-fit: contain;
+}
+
+.img-box:hover {
+    transform: scale(1.1,1.1);
+}
+
+.text-outside-box {
+    height: 50%;
+    width: 100%;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 4%;
+}
+
+.footer-box {
+    height: 35%;
+    width: 100%;
+    padding: 1.5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-left-box {
+    display: flex;
+    height: 93%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+}
+
+.footer-img {
+    height: 90%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.footer-info {
+    height: 90%;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+}
+
+.footer-info span {
+    font-size: 0.5rem;
+}
+
+/* .footer-info {
+    height: 93%;
+    width: 20%;
+    border: 1px solid black;
+    font-size: 0.5rem;
+    display: flex;
+    flex-direction: column;
+} */
+
+.footer-right-box {
+    height: 93%;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+}
+
+.footer-right-box span {
+    background-color: rgb(165, 240, 250);
+    color: blue;
+}
+ 
