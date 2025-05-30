@@ -1,0 +1,497 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.header-outside-box {
+    height: 15%;
+    width: 90%;
+    margin: auto;
+    margin-top: 1.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-box {
+    height: 65%;
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.1%;
+}
+
+.studysync-box {
+    height: 75%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5%;
+}
+
+.icon-box {
+    height: 75%;
+    width: 25%;
+}
+
+.icon-box img {
+    height: 100%;
+    width: 100%;
+}
+
+.text-box {
+    height: 75%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.text-box h2 {
+    font-size: 1.8rem;
+}
+
+.nav-box {
+    height: 25%;
+    width: 40%;
+}
+
+.nav-box ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-box ul li {
+    list-style-type: none;
+}
+
+.nav-box ul li a {
+    text-decoration: none;
+    color: rgb(38, 37, 37);
+}
+
+.contact-box {
+    height: 42%;
+    width: 11%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-box button {
+    height: 100%;
+    width: 100%;
+    border-radius: 8%;
+    background-color: rgb(86, 86, 244);
+    color: white;
+    border: none;
+}
+
+.contact-box button:hover {
+    background-color: blue;
+}
+
+.hero-box {
+    height: 70%;
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.left-side-box {
+    height: 75%;
+    width: 38%;
+    display: flex;
+    flex-direction: column;
+    gap: 8%;
+    animation: leftToRight 1s forwards;
+    opacity: 0;
+    transform: translateX(-500px);
+}
+
+@keyframes leftToRight {
+    0% {
+       opacity: 0;
+       transform: translateX(-500px); 
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.left-side-box span {
+    color: blue;
+    font-weight: 700;
+}
+
+.seam-box {
+    font-size: 3.5rem;
+    font-weight: bolder;
+}
+
+.desc-box {
+    font-weight: 100;
+    color: rgb(80, 76, 76);
+    text-align: left;
+}
+
+.btn1 {
+    height: 2.3rem;
+    width: 6.5rem;
+    background-color: blue;
+    color: white;
+    border-radius: 7px;
+    border: none;
+    margin-right: 7px;
+}
+
+.btn2 {
+    height: 2.3rem;
+    width: 6.5rem;
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+    border: none;
+}
+
+.right-side-box {
+    height: 80%;
+    width: 41%;
+    background-image: url(colors.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 14px;
+}
+
+.bottom-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 15%;
+    width: 50%;
+    margin: auto;
+    gap: 20%;
+    animation: leftToRight 1s forwards;
+    opacity: 0;
+    transform: translateX(-500px);
+    margin-bottom: 40px;
+}
+
+.bottom-section .first {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.bottom-section .second {
+    color : grey;
+    font-weight: bold;
+}
+
+.bottom-section i {
+    color: grey;
+    font-size: 1.2rem;
+}
+
+.companies {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 90%;
+    width: 75%;
+    background-color: rgb(237, 235, 235);
+    border-radius: 1rem;
+}
+
+.com-box {
+    height: 110%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4%;
+    margin: auto;
+    padding: 2rem;
+    background-color: rgb(237, 235, 235);
+    margin-bottom: 3.5rem;
+    border-radius: 1rem;
+}
+
+.com-box h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.com-box p {
+    width: 56%;
+    text-align-last: center;
+}
+
+.card-box {
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,0.45fr);
+    grid-template-rows: repeat(3,2fr);
+    column-gap: 1.9rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 4.5rem;
+    border-radius: 0.7rem;
+    padding: 1rem;
+}
+
+.card i {
+    height: 2rem;
+    width: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.card span {
+    font-weight: bold;
+    color: white;
+}
+
+.card p {
+    text-align: center;
+    width: 90%;
+    color: white;
+}
+
+.textimonal-container {
+    height: 30rem;
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textimonal-content {
+    height: 90%;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.textimonal-content h2 {
+    font-weight: bold;
+}
+
+.textimonal-grid {
+    display: grid;
+    grid-template-columns: repeat(3,0.8fr);
+    column-gap: 1.5rem;
+}
+
+.textimonal-card {
+     border: 1px solid rgb(125, 122, 122);
+     padding: 1rem;
+     display: flex;
+     flex-direction: column;
+     gap: 1rem;
+     align-items: center;
+     border-radius: 0.6rem;
+     transition: transform 0.4s, box-shadow 1s;
+}
+
+.textimonal-card:hover {
+    transform: scale(1.05,1.05);
+    box-shadow: 0px 1px 4px 0.1px blue;
+    border: 1px solid blue;
+}
+
+.textimonal-text {
+    height: 5rem;
+    font-size: 0.92rem;
+    text-align: justify;
+    text-align-last: center;
+    color: rgb(101, 98, 98);
+}
+
+
+
+.textimonal-avatar img {
+    height: 4rem;
+    width: 4rem;
+}
+
+.textimonal-details {
+     align-items: flex-end;
+     justify-content: flex-end;
+}
+
+.textimonal-details h3 {
+    color: blue;
+}
+
+.textimonal-details p {
+    text-align: center;
+}
+
+.newsletter-container {
+    height: 25rem;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 2rem;
+    
+}
+
+.newsletter-content {
+    height: 90%;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.newsletter-leftbox {
+    height: 100%;
+    width: 50%;
+}
+
+.newsletter-leftbox img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.newsletter-rightbox {
+    height: 100%;
+    width: 50%;
+    background-color: rgb(237, 235, 235);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    padding-left: 3.5rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.newsletter-rightbox h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(78, 78, 241);
+}
+
+.newsletter-rightbox span {
+    color: rgb(70, 68, 68);
+}
+
+.newsletter-rightbox form input {
+    height: 1.8rem;
+    width: 10rem;
+    padding-left: 0.5rem;
+    border-radius: 0.2rem;
+    border: none;
+}
+
+.newsletter-rightbox form button {
+    height: 1.8rem;
+    width: 3.8rem;
+    background-color: rgb(78, 78, 241);
+    color: white;
+    border-radius: 0.2rem;
+    border: none;
+}
+
+.newsletter-rightbox p {
+    font-size: 0.9rem;
+    color: rgb(70, 68, 68);
+}
+
+.footer-container {
+    height: 30rem;
+    width: 100%;
+    background-color: rgb(237, 235, 235);
+}
+
+.footer-content {
+    height: 70%;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    padding-top: 3rem;
+    
+}
+
+.first-box {
+    margin-right: 7rem;
+}
+
+.footer-boxes {
+    display: flex;
+    flex-direction: column;
+    width: 21%;
+    gap: 1rem;
+}
+
+.first-box .studysync-box2 {
+    display: flex;
+    gap: 0px;
+}
+
+.studysync-box2 .text-box {
+    font-size: 0.4rem;
+    margin-left: 0;
+}
+
+.first-box-span {
+    color: rgb(70, 68, 68);
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+.icons-box {
+    display: flex;
+    gap: 1rem;
+    font-size: 1.3rem;
+}
+
+.footer-other-boxes .span-box {
+    font-weight: bold;
+}
+
+.footer-other-boxes .list-box ul{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    color: rgb(70, 68, 68);
+    font-weight: 200;
+    list-style-type: none;
+}
+
+.last-box .copy-box {
+    text-align: center;
+    margin-top: 1rem;
+}
